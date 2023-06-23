@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7532C8A02A44730A00D0B6EF /* GreetingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7532C89F2A44730A00D0B6EF /* GreetingViewModel.swift */; };
+		7532C8A22A4473BC00D0B6EF /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7532C8A12A4473BC00D0B6EF /* Person.swift */; };
 		75E9F6D92A42031F00B95888 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E9F6D82A42031F00B95888 /* AppDelegate.swift */; };
 		75E9F6DB2A42031F00B95888 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E9F6DA2A42031F00B95888 /* SceneDelegate.swift */; };
-		75E9F6DD2A42031F00B95888 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E9F6DC2A42031F00B95888 /* ViewController.swift */; };
+		75E9F6DD2A42031F00B95888 /* GreetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E9F6DC2A42031F00B95888 /* GreetingViewController.swift */; };
 		75E9F6E02A42031F00B95888 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75E9F6DE2A42031F00B95888 /* Main.storyboard */; };
 		75E9F6E22A42032100B95888 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75E9F6E12A42032100B95888 /* Assets.xcassets */; };
 		75E9F6E52A42032100B95888 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75E9F6E32A42032100B95888 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7532C89F2A44730A00D0B6EF /* GreetingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingViewModel.swift; sourceTree = "<group>"; };
+		7532C8A12A4473BC00D0B6EF /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		75E9F6D52A42031F00B95888 /* MV(X)Patterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MV(X)Patterns.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75E9F6D82A42031F00B95888 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75E9F6DA2A42031F00B95888 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		75E9F6DC2A42031F00B95888 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75E9F6DC2A42031F00B95888 /* GreetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingViewController.swift; sourceTree = "<group>"; };
 		75E9F6DF2A42031F00B95888 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		75E9F6E12A42032100B95888 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75E9F6E42A42032100B95888 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +62,9 @@
 			children = (
 				75E9F6D82A42031F00B95888 /* AppDelegate.swift */,
 				75E9F6DA2A42031F00B95888 /* SceneDelegate.swift */,
-				75E9F6DC2A42031F00B95888 /* ViewController.swift */,
+				7532C8A12A4473BC00D0B6EF /* Person.swift */,
+				7532C89F2A44730A00D0B6EF /* GreetingViewModel.swift */,
+				75E9F6DC2A42031F00B95888 /* GreetingViewController.swift */,
 				75E9F6DE2A42031F00B95888 /* Main.storyboard */,
 				75E9F6E12A42032100B95888 /* Assets.xcassets */,
 				75E9F6E32A42032100B95888 /* LaunchScreen.storyboard */,
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75E9F6DD2A42031F00B95888 /* ViewController.swift in Sources */,
+				7532C8A22A4473BC00D0B6EF /* Person.swift in Sources */,
+				75E9F6DD2A42031F00B95888 /* GreetingViewController.swift in Sources */,
 				75E9F6D92A42031F00B95888 /* AppDelegate.swift in Sources */,
 				75E9F6DB2A42031F00B95888 /* SceneDelegate.swift in Sources */,
+				7532C8A02A44730A00D0B6EF /* GreetingViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
