@@ -24,15 +24,14 @@ class GreetingViewController: UIViewController {
         return button
     }()
     
-    private var presenter: GreetingPresenterProtocol!
+    var presenter: GreetingPresenterProtocol!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         addViews()
+        view.backgroundColor = .yellow
         
-        let person = Person(name: "Tim", surname: "Cook")
-        presenter = GreetingPresenter(view: self, person: person)
     }
     
     @objc func showGreetingPressed() {
